@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  BluetoothDemo
+//
+//  Created by yunxi on 2021/6/7.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Eumeration.h"
+#import "Tools.h"
+#import "DeviceModel.h"
+#import "SigManager.h"
+#import "Macro.h"
+#import "Block.h"
+#import "SigBluetooth.h"
+
+#import <Masonry/Masonry.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#endif /* PrefixHeader_pch */
